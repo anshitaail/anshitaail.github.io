@@ -1,21 +1,49 @@
 /* This stylesheet is where to add styles for your Shakespeare Home Page */
 
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 * {
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {  
   /*your style rules go in here */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Roboto Slab', serif;
+  background-color: rgb(211, 164, 108);
+  padding-top: 3em;
+  background-image: url("../images/pexels-pixabay-235985.jpg");
+
 }
 
 header {
+/* border: 1px solid green; */
+background-color: rgb(39, 22, 2);
+color: rgb(236, 197, 119);
+position: fixed;
+top:0;
+height: 3em;
+width: 100%;
+z-index: 100%;
+}
 
+h1 {
+text-align: center;
+margin:auto;
 }
 
 main {
+width: 80%;
+max-width: 700px;
+border: 2px solid brown;
+margin: 12px auto 12px auto;
+background-color: white;
+padding: 2em;
 
 }
 
@@ -25,9 +53,101 @@ section {
 
 
 figure {
- 
+ width:60%;
+ margin:0 auto;
+ border:1px solid red;
+ float:right;
+ margin-left: 1em;
+}
+img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.info {
+  display:block
+}
+
+p {
+  margin-bottom: 1em ;
+  color: black;
+  text-align: left;
+  line-height: 1.3;
+}
+
+.playlink{
+  clear:both;
+}
+
+.playlink a {
+  color:brown;
+  text-decoration: none;
+  background-color: bisque;
+  padding: 4px;
+}
+
+.perform {
+  color:black;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.print {
+  color:black;
+  font-weight: bold;
+  margin-bottom: 0;
+} */ */
+
+ul {
+  /* border: 1px solid range; */
+  margin: 1em .4em 1em .1em;
+  list-style-position: inside;
+  font-size: .8em;
+}
+
+li {
+  margin-bottom: .4em;
+}
+
+
+.first {
+margin-top: 1em;
 }
 
 footer {
+border:1px solid brown;
+text-align: center;
+position:fixed;
+bottom: 0;
+width: 100%;
+background-color: rgb(39, 22, 2);
+height: 3em;
+}
 
+footer p {
+  text-align: center;
+  color: bisque;
+  line-height: 4em;
+  font-size: .5em;
+}
+
+@media(max-width: 800px){
+  figure {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
+    float:none;
+    margin: 0 auto;
+   }
+
+   main{
+    width:100%;
+    margin-left:0;
+    margin-right:0;
+   }
+   body{
+    /* background-color:white; */
+   }
+   
 }
