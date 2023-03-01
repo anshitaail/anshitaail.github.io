@@ -1,9 +1,5 @@
-/* This stylesheet is where to add styles for your Shakespeare Home Page */
-
-
-
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&display=swap');
 * {
 
   margin: 0;
@@ -30,6 +26,8 @@ top:0;
 height: 3em;
 width: 100%;
 z-index: 100%;
+font-family: 'Cinzel', serif;
+
 }
 
 h1 {
@@ -55,7 +53,7 @@ section {
 figure {
  width:60%;
  margin:0 auto;
- border:1px solid red;
+ border:1px solid brown;
  float:right;
  margin-left: 1em;
 }
@@ -84,7 +82,8 @@ p {
   color:brown;
   text-decoration: none;
   background-color: bisque;
-  padding: 4px;
+  padding: 4px; 
+  border:1px solid brown
 }
 
 .perform {
@@ -136,7 +135,7 @@ footer p {
   figure {
     width: 100%;
     margin: 0 auto;
-    border: 1px solid red;
+    border: 1px solid brown;
     float:none;
     margin: 0 auto;
    }
@@ -149,5 +148,7 @@ footer p {
    body{
     /* background-color:white; */
    }
+
+   
    
 }
